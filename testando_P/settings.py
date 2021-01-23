@@ -30,7 +30,7 @@ SECRET_KEY = 'l4$e)cd-!z3g^su5talfawz_hwsxm=jxep6mq0)l6g3g9rfy=a'
 DEBUG = config('DEBUG',default = False,cast = bool)
 #DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition

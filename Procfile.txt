@@ -1,1 +1,1 @@
-web: gunicorn testando_P.wsgi --log-file- 
+web: gunicorn testando_P.wsgi --log-file- -b :$PORT
