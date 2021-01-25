@@ -1,1 +1,1 @@
-web: gunicorn testando_P.wsgi --log-file- -b :$PORT --noreload
+web: gunicorn testando_P.wsgi --log-file -
